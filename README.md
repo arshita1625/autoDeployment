@@ -54,3 +54,6 @@ You can watch live deployment logs by accessing the streaming logs endpoint with
 
 ```bash
 curl http://localhost:8000/stream_logs/{job_id}
+
+### Loom video
+https://www.loom.com/share/cf1e4e3cb20c402e9e734914cb219006
