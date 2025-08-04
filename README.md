@@ -48,3 +48,9 @@ To start a deployment, send a POST request to the orchestrator API with your dep
 curl -F "message=Deploy this Flask app on AWS" \
      -F "repo_url=https://github.com/Arvo-AI/hello_world" \
      http://localhost:8000/deploy
+### Streaming Live Logs
+
+You can watch live deployment logs by accessing the streaming logs endpoint with the `job_id` returned from the deployment request:
+
+```bash
+curl http://localhost:8000/stream_logs/{job_id}
