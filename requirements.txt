@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+spacy
+python-multipart
+gitpython
+jinja2
+requests
+packaging
